@@ -46,7 +46,18 @@ tr:nth-child(even)
 {
     background-color:limegreen;
 }
-
+.link 
+{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.name:hover
+{
+        border: 1px solid;
+        border-color: inherit;
+        box-shadow: 4px 6px 8px;
+}
 
 
 
