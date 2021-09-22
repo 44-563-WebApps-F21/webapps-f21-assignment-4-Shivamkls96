@@ -20,18 +20,31 @@
 .LANE{
     color: #125d98;
 }
-table,th,td{
-    border: 2px salmon;
-    padding: 1rem 2rem;
-    text-align: center;
-}
-td{
-    color: #191970;
-}
-table
+table 
 {
-    border-collapse: collapse;
-    margin: 3rem auto;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+td
+{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+tr
+{
+    border: 1px solid black;
+    padding: 11px;
+    background-color:rgb(201, 64, 18) ;
+}
+tr:nth-child(even) 
+{
+    background-color:limegreen;
 }
 tr:nth-child(even){
     background-color:lightgrey;
