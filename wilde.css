@@ -1,0 +1,24 @@
+.speech{
+    font-size: 14px;
+    color: #000;
+}
+.stagedirection{
+    font-size: 13px;
+    background-color: #faebd7 ;
+}
+.stagedirection:hover{
+    color: rgb(0,0,3);
+    background-color: lightgreen;
+}
+.name{
+    font-size: 17px;
+    color: #000;
+}
+.ALGERNON{
+    color:#8A2BE2;
+}
+.LANE{
+    color: #125d98;
+}
+
+
