@@ -1,24 +1,44 @@
-.speech{
+p.speech{
     font-size: 14px;
     color: #000;
 }
-.stagedirection{
+p.stagedirection{
     font-size: 13px;
     background-color: #faebd7 ;
 }
-.stagedirection:hover{
+p.stagedirection:hover{
     color: rgb(0,0,3);
     background-color: lightgreen;
 }
-.name{
-    font-size: 17px;
-    color: #000;
-}
-.ALGERNON{
+h3.ALGERNON{
+    font-family: serif;
+    font-size: 22px; ;
     color:#8A2BE2;
 }
-.LANE{
+h3.ALGERNON:hover
+{
+    text-shadow: 2px 2px 5px green;
+    border-style: solid;
+}
+h3.LANE{
+    font-family: serif;
+    font-size: 22px;
     color: #125d98;
+}
+h3.LANE:hover
+{
+    text-shadow: 2px 2px 5px violet;
+    border-style: solid;
+}
+h3.JACK{
+    font-family: monospace;
+    font-size: 22px;
+    color: tomato;
+}
+h3.JACK:hover
+{
+    text-shadow: 2px 2px 2px blueviolet;
+    border-style: solid;
 }
 table 
 {
@@ -58,8 +78,19 @@ tr:nth-child(even)
         border-color: inherit;
         box-shadow: 4px 6px 8px;
 }
+.navigation{
+    width: 100%;
+    overflow: auto;
+}
+.navigation a {
+    float: left;
+    padding: 12px;
+    color:red;
+    text-decoration: none;
+    font-size: 16px;
+}
 .book{
-    background-color: lightskyblue;
+    background-color:black;
 }
 @media screen and (max-width: 500px){
     .navbar a{
@@ -67,6 +98,7 @@ tr:nth-child(even)
         display: block;
     }
 }
+
 
 
 
