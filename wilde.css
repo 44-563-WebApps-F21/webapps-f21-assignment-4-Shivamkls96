@@ -20,5 +20,23 @@
 .LANE{
     color: #125d98;
 }
+table,th,td{
+    border: 2px salmon;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+td{
+    color: #191970;
+}
+table
+{
+    border-collapse: collapse;
+    margin: 3rem auto;
+}
+tr:nth-child(even){
+    background-color:lightgrey;
+}
+
+
 
 
